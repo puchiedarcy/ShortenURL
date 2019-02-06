@@ -1,0 +1,11 @@
+﻿<h3>@ViewBag.Message</h3>
+
+<form action="ShortURL/Shorten" method="post">
+    Input URL to Shorten <input type="text" name="url" id="url" /><input type="submit" value="Shorten" />
+</form>
+<form action="ShortURL/Expand" method="post">
+    Input Short URL to Expand <input type="text" name="shortURL" id="shortURL" value="http://short.io/"/><input type="submit" value="Expand" />
+</form>
+<form action="ShortURL/Clicks" method="post">
+    Input Short URL to see Click Count (number of times expanded) <input type="text" name="clickedURL" id="clickedURL" value="http://short.io/" /><input type="submit" value="Click Count" />
+</form>
